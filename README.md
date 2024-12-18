@@ -10,13 +10,21 @@ This project focuses on extracting, transforming, and loading (ETL) crowdfunding
 1. Category and Subcategory DataFrames
    
 *Extracted and transformed data from crowdfunding.xlsx.
+
 *Created two DataFrames:
+   
     *Category DataFrame:
+        
         *category_id: Sequential IDs (cat1, cat2, ...).
+        
         *category: Unique category titles.
+   
     *Subcategory DataFrame:
+       
         *subcategory_id: Sequential IDs (subcat1, subcat2, ...).
+        
         *subcategory: Unique subcategory titles.
+
 *Exported these DataFrames as category.csv and subcategory.csv.
 
 
